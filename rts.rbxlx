@@ -1,0 +1,1634 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBXa9f7ca2ab64b48e8ac24ee52fcae3c94">
+		<Properties>
+			<bool name="AllowThirdPartySales">false</bool>
+			<string name="CollisionGroups">Default^0^1</string>
+			<Ref name="CurrentCamera">RBX6744b7e1808c465397849210039b0372</Ref>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExpSolverEnabled_Replicate">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<bool name="FilteringEnabled">false</bool>
+			<float name="Gravity">196.199997</float>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<bool name="PGSPhysicsSolverEnabled">true</bool>
+			<Ref name="PrimaryPart">null</Ref>
+			<bool name="StreamingEnabled">false</bool>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Camera" referent="RBX6744b7e1808c465397849210039b0372">
+			<Properties>
+				<CoordinateFrame name="CFrame">
+					<X>44.7330093</X>
+					<Y>55.9502831</Y>
+					<Z>53.495636</Z>
+					<R00>0.738857806</R00>
+					<R01>-0.463865638</R01>
+					<R02>0.488792241</R02>
+					<R10>1.49011612e-08</R10>
+					<R11>0.725360274</R11>
+					<R12>0.688369513</R12>
+					<R20>-0.673861384</R20>
+					<R21>-0.508607209</R21>
+					<R22>0.535938084</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<float name="FieldOfView">70</float>
+				<CoordinateFrame name="Focus">
+					<X>43.7554245</X>
+					<Y>54.5735435</Y>
+					<Z>52.4237595</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<string name="Name">Camera</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBXf8dda9fccef744f9ba9057b457aa9e0a">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.300000012</float>
+				<float name="Friction">0.5</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAan8/P39rf2Y/ilY+j35fi21PZmxvZbDqw8faiVpHOi4kHh4lZlw76JxKc3trhHta
+gcLgc4RKxr21zq2UlJSM]]></BinaryString>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid"><![CDATA[AQX////////////+//6A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/
+AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C/4L/gv+C/4L/gv+C/wAA
+AAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4L/gv+C/4L/gv+C/4L/gv8AAAAA
+AAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/AAD/AAD/
+AAD/AAH+gP+A/4DdQgFCBIAaQgJCBkIKQg1CEIAYQgFCCEIQwhIBQhlCG4AYQg1CHEIkQiNC
+HkIdQiCAF0IHQhxCL0I5QjRCIUIWQhiAF0INQidCP0JLQkBCIkIKQgeAF0INQihCQUJMQkJC
+IIAZQgZCHkI1Qj9CNkIeQgxCAIAYQg9CIkIsQi5CI0IXQg6AGEICQhBCHUIlQidCIUIbgP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP8AAAAAAAAAAAAAAAGAGUIDQg9CGkIkQiZC
+I4AaQgRCDkIYQiFCJoAbQgNCDUIYQh+AHEIAQgdCEoAeQgSA/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4BfAP//AP//AP//Af/+gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C
+/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C
+/4L/gv+C/4L/gv+C/wAA/wAA/wAA/wAB/oD/gP+APkIMgBxCBUIYQjOAG0IJQhpCNkJXgBpC
+C0IfQjFCSUJkgBlCD0JAQmtCbMJPAUIFQgZCA0IBQgCAFEI+QppC40LLQn5COEIRQhJCE0IO
+Qg1CC0IKQgeAEEIHQnKCA0JTQh1CH0IewhsBQhxCJ0IqQiFCC4ALQgBCB0IIQgZCsYIDQnxC
+IEIiQiBCH0IjQi9CSkJWQkxCKUIIgAhCBUISQjtCWUJqQk1C8IIDQpVCF0IYQhlCF0IdQjxC
+ZEJ6QnBCSEIZgAdCDkIlQlhC0oIGQsVCWUIIQgnCCgFCDkIwQl5CgUJ8QlRCH4AGQhNCMEJZ
+Qr+CBELUQoVCa0I4QhWABEINQkJCaEJsQktCF4AFQhBCO0JgQoxC7oIEQmhCAoAHQgNCGkI5
+QkVCMkIWQgCAA0IGQjNCa0KQQqFCzYIEQj6AA0IBgARCEEIkQjFCLUIbQgaAA0IcQldClkKw
+QptCkELmggJCekIIgANCEUIFgANCC0IcwioBQiJCD4ADQihCbUKoQrRClkJ3QtaCAUKgQkBC
+BYD/gP+A/kIhQlRCVkIGgBtCSkKSQo1CMYAbQkBCeEJyQiKAF0I9QnNCQcIfAUIqQhaAF0JA
+QuwCQt9CPoAaQleCAkJIgBpCKkKzAkK6QhSAG0IdQkRCJ4AcQjxCOYD/gP+A/4B+QhOAHUIL
+QiZCDYAdQgSA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gEYAAAAAAAAAAAAAAAFCHkITQgpCAYABQgNCFEIk
+QipCJkIaQgmAAkIoQmdCnkKiQoVCfYIDQkFCA4ADQiZCIkIbQhFCB4ABQgxCGUIyQjpCI0IY
+QgxCAQBCIEJYQolCjUJvQouCA0JtQgqAA0IlQihCJkIfQhVCDEIGQgVCKkJWQnRCaEIwQhlC
+DUIDQhpCUEKQQqVCjkKsggNCpkItQgOAAkIdQiRCKUImQiBCFkISQhhCRkKSQtBCy0KAQiJC
+HEISQiNCZ0K8QuFCwkKoggNC+kJQQiFCBYABQg9CGUIfQiFCH0IdQhtCJkJhQsiCAUL+QmVC
+MEIiQjlClYICQr1C2IIDQodCTkIjQgcAQgFCCkIQQhZCF0IaQhtCHkJlQtGCAkLkQmtCOkJE
+Qs+CAkLyQpyCBEK1QmFCK0IVgAFCAkIHQgxCEEIUQhZCMkKUggRCekJEQviCA0KGggZCn0Ja
+gANCAEIFQg1CEUIQQipCi4IDQvlCPoIEQomCB0L2gARCFEIwQj1CMEIRQjGCBEIvggRCekLZ
+ggeAA0INQjxCc0KcQohCTUImggNCqEIOQo+CAkLcQmdCm0L9ggaAA0IdQmFCwoIBQrRCXYID
+QnhCHUIoQnxCvUKtQl9CW0J/QpNCsIIFgANCGkJmQuWCAkKdQv2CAkLqQnVCKUIaQiRCJkIf
+QkdCcEKIQp5C44IEgANCCkJCQreCAkLmQtWCBEKZQjBCFEIMQhRCK0JVQn1Ct4IFgANCA0IV
+QkZCx4ICQueCBULjQqBCPUIiQhpCN0JjQtOCA0L5QquABEIGQhpCaoIMQmtCL0I5QlWCBEJm
+QguABUIKQkBC1IILQvlCn0KoggRCjEIYgAZCBEI6QuKCEkLlQkxCAYAFQgNCIUJaghNCdkIW
+gAZCDkI8QoOCEkJ9QhqAB0IOQj5ChEL0ghBCakIHgAhCAUInQl1CnUL1gg9CS4AKQgRCIEI4
+Qq+CD0JggA1C04IPQmxCK0IRgApCDIIEQmyCCULZQnxCd0JSQiJCAYAHQgJCZ4IDQrpCSoIG
+QvJC7EK3Qo9Cq0K3QoxCSUIXgAdCG0KwggNCi0IzQpOCBEKcQm1CW0JNQl1Cq0LJQqVCYEIk
+QgGABkIfQq6CA0JgQkNCdoIDQs1CVUIyQhlCEkIpQnpCnUKJQlNCIUICgAZCBUJqggJC+0Jj
+QktCbIIEQpNCNUIQQgBCCUI6Ql9CV0I2QhOACEIQQnRC4ULWQntCdEKsggZCd0IXQgJCDUIf
+Qi5CLEIbQgeACUIXQkBCYUJwQtSCB0LwQixCB0ITQh5CIkIbQg9CAIAIQgFCHUJCQl5CdoIJ
+QlRCEUIcQiFCH0ITQgaACUICQh5CSEJgQm9C6oIIQmVCGUIiQiFCGUIMQgCAF0IpQohCi0Is
+gBtCTkLKQtZCaoAbQktC0UL2QoaAG0IfQqBCxEJ8gA9CEUIcgAVCAkIUQgWAAUJHQotCfEIt
+gA5CGkI+Qj+ABEJDQmZCP4ABQhJCkELSQp5CLIANQhBCjYIBQoeAAkKIQstCiUIPAEIXQqmC
+AUL8QnZCCYAMggOAAUIVQqVC6UKlQhwAQgVCm4IEQmWACkICggNCJwBCA0J5Qr9Ch0IbgAFC
+ZoIFQn6ACkL5ggJCH4ABQidCWEJAgANClYIEQu2ABkIHQgiAAUJDggJCD4AJQoCCA0LxgAZC
+IEInQgmAAUJ7QvxC3oALQpyCAUL3QoSABkIbQi5CFYABQiBC6gJC+kKOgAhCH0JeQotCjEJ1
+Qi+AB0IYQiFCFABCFIIDQvxCGYAGQj5CeUKKQk6ACUICQiRCJkIdQn+CBUKuQhqAA0INQmFC
+gEJjQhCACkIjQj1CZELcggZCroACQhBCTEJ3QmRCJoALQjdCa0K7gghCQUICQhhCS0J7QnJC
+PIALQglCYkLLgghC+0IvQhRCLEJWQmlCR0IRgAtCC0JiQt2CCEK4QhpCIUJCQldCP0IEgA1C
+LkLPgghCnkIZQlBClEJ3Qh2AD0LHgghCjEJLQt0CQp5CCoAPQrqCCELfQoeCAkI4gA9C9YIC
+QsSCCELcQjGADkJzggJCXgBCnIIFQrlCi0JSgA9C7YICQgYAQiuCBELAgBJC3YICgAFCDIID
+QtmAE0JtggFChIABQgOCA0KcgBNCEkJaQmKAA0JxggNCCYAYQg9CxYIDQpmAF0I5QpGCBYAW
+QgpCUELYggVCK4AWQj1Cw4IEQsNCGoDUQhxCFIAKQg5CIoAPQhNCjUKXQieACUIXQmZCjkJz
+QhiADEI7ggFCfYAJQgtCg0LQQtdCkEIygAxC9QJCgIAKQkFClELIQq9CWYAMQlBCgkIvgAtC
+I0J5QnZCMoAcQhtCKIAPQidCCIAcQiFC0wJC7kIxgBpCY4IDQnaAGUKVggRCj4AXQjZCvoIE
+Qt5CA4AVQgNCSkLJggVCAoAVQgxCQEKzggVCBIAVQjxCe0L0ggRC5YAWQkdCpoIFQqeAFkI+
+QotCsEL0ggNC7IABQhVCJkIBgBFCTUJhQjYAQqWCA0LdQkBCDUIXgBFCPEJyQkCAAUICggRC
+UoATQmFCckIUgAJClIIDgBRCSEJZQgKAAkJuggJCt4AUQg1CE4ADQj2CAkK4gBpCKIICQumA
+GkI9ggNCFYAZQlmCA0I2gBlCUYIDQjGAGUIjQlpCa0KjQlmA/4AWQgBCB4AeQgeAgEIZgB1C
+V0LSQuJCZIAbQoiCAkJagBpCYULbggFCn4AaQiFCUULWAkKtQgaAGUIJQi5ChELOQohCDIAZ
+QipCYULIQstCXIAZQgVCNkJ9QvICQoaAG0JMQs0CQsOAHEJ7ggFCgYAbQi2CAkI/gBpCH4IC
+Qj2AGkIIggJCRoAaQgeCAkJEgBpCE4ICQseAGkIZggOAGkISggOAG0JuggFCdoD/gP+AGUIJ
+Qh5CAoAdQhpCFIAeQgOAXkIEgB5CDIAeQhRCEoAdQh9CPkIOgBxCJUJnQkKAHEIbQnpCXoAc
+QiACQvmAHEK1ggFCQYAbQtKCAUKBgBtCeIIBQm6AHEJgQm6A/4D/gP+AfUITgB5CYUJRgB1C
+fEJugB1CP0I8gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4BLAAAAAAAAAAAAAAABgAhCHUJAQlZCU0KEQueCBkK/QktCIkIlQh9CFEIGgAtCFkI3Qk9C
+TUI3QkZCgEKiQrxCvkLFQrFCi0JWQiZCJ0IkQhtCDIAMQgtCKEJAQkdCOUIjQiBCPUJYQldC
+MUIqQiRCH0IlQidCIEITQgOADEIBQhdCLUI5QjdCLUIfQhRCIUIiwh0BQiJCJEIjQh9CFEIH
+gA5CBkIYQiZCLkIwQixCMUI5QkBCP0I6QipCJUIcQhRCCEIAgA9CCEIUQiJCJ0IyQkNCVEJb
+QlhCSUIvQh9CEUIIgBJCBEIQQhpCJUI+Qk5CWEJQQj9CI0ISQgSAFEIBQgpCFUIiQi9COUIy
+QiJCD0ICgBdCA0IIQhFCE0IOQgSA/4D/gPlCTkKNQoNCa0KsQo1CL4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4DpAP//AP//AP//Af/9gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4L/
+gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/
+gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C/4L/
+gv+C/4L/gv+C/wAA/wAA/wAA/wAB/oD/gARCBEIKQgSAGUIAQgJCDEIfQiVCIUIQQgGAFkIJ
+Qh9CL0JTQldCVEJHQixCD0IEgBRCAEIjQlFCfkLPQtJCl0JvQkhCGkIQQgWAE0IFQjxClULo
+ggFC70KTQk5CIkIaQhJCB4ATQlJC24IDQstCT0InQiRCHUIQQgOAEUIDQkRC6YIEQpZCQkIt
+QiZCGEILgBFCCUJQQt2CBUKcQmhCQUIkQhBCA4AQQh1Ce4IGQv1CwkKTQkxCGkIJgBBCRUK3
+gghC+EKcQjtCDUIBgA9Ce0L0ggpCg0IfQgSAD0KTQvWCCkLqQlZCCoAPQoNCrkLoggpCkkIi
+gA9CV0JiQnFCp4IJQp9CMUIDgA5CKsIgAUIvQnhC7IIHQpVCLUIFgA5CN0I2QjNCJ0ISQkNC
+sIIGQm9CGIAPQl5CYkJjQlVCO0IeQiVCk4IEQr5CPEICgA9CdEJ+QoxCjUJ0QkpCMUJTQtOC
+A0JZQhKAEEJVQmlChEKZQpNCfEJVQldCq4ICQsJCMIARQhhCMEJOQnNCkEKVQnlCY0KoQvQC
+QuNCcUIUgBNCFEI3QmpCikKIQn5CpULbQvRCwEJgQhiAFEIFQjpCaUKaQspC1kLtQtVCokJR
+QhqAFUIUQklCmULTQvECQtRCj0JKQhqAFUICQjBCckKnQtdC8kLMQn5CR0IXgP+AlUIhQieA
+HEIiQlRCU0IkgBtCNUJ0Qo9CX0IkgBpCQ0KWQslC3kKQQhqAGEIGQktC8IICQreAGEIaQmOC
+BEJaQhKAFkIsQnqCBEKUQklCJUIBgBRCMUKxggRCq0J6QlJCJoAVQktC/YIEQutCtkJhQhmA
+FUI7Qt2CBULhQi2AF0KcggVCVIAYQqaCA0LwQj+AGUKNggJCg4AbQlJCpEKRQiCAG0IMQjBC
+J4AdQgmAXUICgP+A/4A6Qn1CeUJLgBtCX4IBQuNCN4AaQomCAkJ4gBpCXoICQqWAG0LpggFC
+wkJIgBtCeULHQstCqEKCQjyAGkJPQpjC2AFCgEILgBpCOUKgQr1CaoAcQjVCW0IegP+A/4D/
+gBhCFUItgB1CP0JrQjqAHEI0QmlCQoAdQi1CIID/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+AdwAAAAAAAAAAAAAAAYAE
+QhVCP0JoQptCwUKmQmRCQEIVgBZCAEIWQi1CWEJ7Qm1CW0I4Qg2AGEIFQidCR0JaQkpCJUID
+gBhCC0IlQkFCSUI3QhaAGEIAQhBCJ0I2QjlCJkINgBJCBYAEQgJCF0ItQi9CKUIZQgWAEkIz
+QhhCAoACQiFCQUJQQkBCHkIMgBNCf0I9Qh1CBwBCGEJLQm9CcUJQQiBCAIATAkKDQjpCHEIU
+QkNCfEKfQo5CWkIigBQCQvVCZUI0QjlCVkKQQqtCiUJNQhaAFIIBQsVCd0JhQl5CdUKDQmJC
+K4AVggJC3UK6Qo1CXUI3Qh9CAoAVggVCokIlQgOAFkKVQp5C9YICQvlCQ4AXQiVCRkKfggNC
+Y4AYQglCP0LpggFC2UJLgBpCSEKVQp1CZEIYgBtCEkIfQg2A/4D/gNhCB4AeQk2AHkJnQiCA
+HUI/QhxCBYAcQgpCBUIIQhFCHkIMgBxCOUJRQjqAHEIwQlRCRUIKgBxCJEIfgP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4AZAP//AP//AP//Af/+gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C
+/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C
+/4L/gv+C/4L/gv+C/w==]]></BinaryString>
+				<BinaryString name="Tags">VGVycmFpbg==</BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">4278998108</Color3>
+				<float name="WaterReflectance">1</float>
+				<float name="WaterTransparency">0.300000012</float>
+				<float name="WaterWaveSize">0.150000006</float>
+				<float name="WaterWaveSpeed">10</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBXe2b9416f8cf94495984368632ee570fd">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>4.00001097</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags">VW5pdA==</BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>4</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX631aad94627745a9b7dc60e3d8916cc3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>3</X>
+					<Y>4</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags">VW5pdA==</BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>4</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBX89219e40c20246e6a6805495ba47291b">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">false</bool>
+			<float name="RolloffScale">1</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBX0d9d6a6a94dd41508c5d76107cb77ec0">
+		<Properties>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBX440ac3b4b441419a821596df39bb2dda">
+		<Properties>
+			<string name="Name">CSGDictionaryService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBX83302416e05a42c182e9601f4d05f47a">
+		<Properties>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX030f5b3b788d49caaaecba62732746a1">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX842c57aa07ae41858b077f0ab9bbcce6">
+		<Properties>
+			<bool name="CharacterAutoLoads">true</bool>
+			<int name="MaxPlayersInternal">12</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">1</int>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBX87ccea34d01e43d2bea68df1a254d98c">
+		<Properties>
+			<string name="Name">ReplicatedFirst</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBXdcec4b4b871f485a82a53e6384eade0f">
+		<Properties>
+			<string name="Name">TweenService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VirtualInputManager" referent="RBX04752121fcfb4cb6b2757983ed8fadda">
+		<Properties>
+			<string name="Name">VirtualInputManager</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBX39830d95d4ea4b67bb54edb4de5a9129">
+		<Properties>
+			<bool name="AutoJumpEnabled">true</bool>
+			<float name="CameraMaxZoomDistance">400</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<float name="HealthDisplayDistance">100</float>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBXd9f42a4ab8844f158bb49b71b0a1c3c0">
+			<Properties>
+				<string name="Name">StarterPlayerScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="LocalScript" referent="RBXfd3910503b7949ffb9cd4dbe4041f67f">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">CameraScript</string>
+					<string name="ScriptGuid">{e65865e7-20b9-4a30-bd2f-fe81aeddf171}</string>
+					<ProtectedString name="Source"></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXabad36018faf41ef9c7c7728b146d08e">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">CameraManager</string>
+					<string name="ScriptGuid">{a3d755e1-7ea2-498d-9212-657060e7a3a0}</string>
+					<ProtectedString name="Source"><![CDATA[local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local CameraManager = {}
+CameraManager.__index = CameraManager
+
+function CameraManager.new()
+	local self = {}
+	setmetatable(self, CameraManager)
+
+	local cameraSpeed = 1
+	local cameraRotateSpeed = 1
+	local minZoom = 4
+	local maxZoom = 6
+	local zoomRate = 0.1
+
+	local camera = workspace.Camera
+	local terrain = workspace.Terrain
+	local origin = Vector3.new(0, 512, 0)
+	local angle = 0
+	local zoom = minZoom
+	local movingForward = false
+	local movingBackward = false
+	local movingLeft = false
+	local movingRight = false
+	local rotatingLeft = false
+	local rotatingRight = false
+	
+	camera.CameraType = Enum.CameraType.Scriptable
+
+	UserInputService.InputBegan:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.W then
+				movingForward = true
+			elseif input.KeyCode == Enum.KeyCode.S then
+				movingBackward = true
+			elseif input.KeyCode == Enum.KeyCode.A then
+				movingLeft = true
+			elseif input.KeyCode == Enum.KeyCode.D then
+				movingRight = true
+			elseif input.KeyCode == Enum.KeyCode.Q then
+				rotatingLeft = true
+			elseif input.KeyCode == Enum.KeyCode.E then
+				rotatingRight = true
+			end
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.W then
+				movingForward = false
+			elseif input.KeyCode == Enum.KeyCode.S then
+				movingBackward = false
+			elseif input.KeyCode == Enum.KeyCode.A then
+				movingLeft = false
+			elseif input.KeyCode == Enum.KeyCode.D then
+				movingRight = false
+			elseif input.KeyCode == Enum.KeyCode.Q then
+				rotatingLeft = false
+			elseif input.KeyCode == Enum.KeyCode.E then
+				rotatingRight = false
+			end
+		end
+	end)
+
+	UserInputService.InputChanged:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.MouseWheel then
+			zoom = math.clamp(zoom + input.Position.Z * zoomRate, minZoom, maxZoom)
+		end
+	end)
+
+	RunService.Heartbeat:connect(function(timeMult)
+		if rotatingLeft then
+			angle = angle - cameraRotateSpeed * timeMult
+		end
+		if rotatingRight then
+			angle = angle + cameraRotateSpeed * timeMult
+		end
+
+		local range = zoom*zoom
+		local actualCameraSpeed = range * cameraSpeed
+		local forward = Vector3.new(math.cos(angle), 0, math.sin(angle))
+		local left = Vector3.new(-forward.z, 0, forward.x)
+
+		if movingForward then
+			origin = origin + forward * actualCameraSpeed * timeMult
+		end
+		if movingBackward then
+			origin = origin + forward * -actualCameraSpeed * timeMult
+		end
+		if movingRight then
+			origin = origin + left * actualCameraSpeed * timeMult
+		end
+		if movingLeft then
+			origin = origin + left * -actualCameraSpeed * timeMult
+		end
+
+		local _, intersection = workspace:FindPartOnRayWithWhitelist(Ray.new(origin, Vector3.new(0, -1024, 0)), { terrain })
+		camera.CFrame = CFrame.new(intersection - forward*range + Vector3.new(0, range, 0), intersection)
+	end)
+	
+	return self
+end
+
+return CameraManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX31f514a026e54ce7a0fb1551087cc4f6">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Client</string>
+					<string name="ScriptGuid">{23900399-3e00-4751-afbf-bb2d150918b2}</string>
+					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+Players.CharacterAutoLoads = false
+
+local CameraManager = require(LocalPlayer.PlayerScripts:WaitForChild("CameraManager"))
+local InputManager = require(LocalPlayer.PlayerScripts:WaitForChild("InputManager"))
+local ComponentManager = require(ReplicatedStorage:WaitForChild("Scripts").ComponentManager)
+
+CameraManager.new()
+InputManager.new()
+ComponentManager.new()]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXdaac8d45576849098015608591ce28df">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">InputManager</string>
+					<string name="ScriptGuid">{dab61531-1f73-4dba-93bb-fefb7fa845f6}</string>
+					<ProtectedString name="Source"><![CDATA[local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+local Unit = require(Shared.Unit)
+
+local InputManager = {}
+InputManager.__index = InputManager
+
+function InputManager.new()
+	local downPosition = nil
+	local downPart = nil
+
+	local selectedUnit = nil
+	local terrain = workspace.Terrain
+
+	local function getClickables()
+		local parts = Component:getInstancesWithComponent(Unit)
+		parts[#parts+1] = terrain
+		return parts
+	end
+
+	local function clickTerrain(position)
+		if selectedUnit then
+			selectedUnit:pathTo(position)
+		end
+	end
+
+	local function clickUnit(unit)
+		if unit == selectedUnit then
+			selectedUnit = nil
+			unit:deselect()
+		else
+			if selectedUnit then
+				selectedUnit:deselect()
+			end
+			selectedUnit = unit
+			unit:select()
+		end
+	end
+
+	UserInputService.InputBegan:connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			downPosition = input.Position
+			local ray = workspace.Camera:ScreenPointToRay(input.Position.x, input.Position.y)
+			ray = Ray.new(ray.Origin, ray.Direction * 1024)
+			local parts = getClickables()
+			downPart = Workspace:FindPartOnRayWithWhitelist(ray, parts)
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and downPart then
+			local deltaPos = input.Position - downPosition
+			if deltaPos.Magnitude < 1.0 then
+				local ray = workspace.Camera:ScreenPointToRay(input.Position.x, input.Position.y)
+				ray = Ray.new(ray.Origin, ray.Direction * 1024)
+				local parts = getClickables()
+				local part, position = Workspace:FindPartOnRayWithWhitelist(ray, parts)
+				if part == downPart then
+					if part == terrain then
+						clickTerrain(position)
+					else
+						local unit = Component:getComponentOnInstance(part, Unit)
+						clickUnit(unit)
+					end
+				end
+			end
+		end
+	end)
+end
+
+return InputManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX7738366767854d5d9be32730b0cbbd77">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">CameraManager</string>
+					<string name="ScriptGuid">{e26152eb-d3b8-49cd-83f7-1934f8892bce}</string>
+					<ProtectedString name="Source"><![CDATA[local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local CameraManager = {}
+CameraManager.__index = CameraManager
+
+function CameraManager.new()
+	local self = {}
+	setmetatable(self, CameraManager)
+
+	local cameraSpeed = 1
+	local cameraRotateSpeed = 1
+	local minZoom = 4
+	local maxZoom = 6
+	local zoomRate = 0.1
+
+	local camera = workspace.Camera
+	local terrain = workspace.Terrain
+	local origin = Vector3.new(0, 512, 0)
+	local angle = 0
+	local zoom = minZoom
+	local movingForward = false
+	local movingBackward = false
+	local movingLeft = false
+	local movingRight = false
+	local rotatingLeft = false
+	local rotatingRight = false
+	
+	camera.CameraType = Enum.CameraType.Scriptable
+
+	UserInputService.InputBegan:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.W then
+				movingForward = true
+			elseif input.KeyCode == Enum.KeyCode.S then
+				movingBackward = true
+			elseif input.KeyCode == Enum.KeyCode.A then
+				movingLeft = true
+			elseif input.KeyCode == Enum.KeyCode.D then
+				movingRight = true
+			elseif input.KeyCode == Enum.KeyCode.Q then
+				rotatingLeft = true
+			elseif input.KeyCode == Enum.KeyCode.E then
+				rotatingRight = true
+			end
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.W then
+				movingForward = false
+			elseif input.KeyCode == Enum.KeyCode.S then
+				movingBackward = false
+			elseif input.KeyCode == Enum.KeyCode.A then
+				movingLeft = false
+			elseif input.KeyCode == Enum.KeyCode.D then
+				movingRight = false
+			elseif input.KeyCode == Enum.KeyCode.Q then
+				rotatingLeft = false
+			elseif input.KeyCode == Enum.KeyCode.E then
+				rotatingRight = false
+			end
+		end
+	end)
+
+	UserInputService.InputChanged:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.MouseWheel then
+			zoom = math.clamp(zoom + input.Position.Z * zoomRate, minZoom, maxZoom)
+		end
+	end)
+
+	RunService.Heartbeat:connect(function(timeMult)
+		if rotatingLeft then
+			angle = angle - cameraRotateSpeed * timeMult
+		end
+		if rotatingRight then
+			angle = angle + cameraRotateSpeed * timeMult
+		end
+
+		local range = zoom*zoom
+		local actualCameraSpeed = range * cameraSpeed
+		local forward = Vector3.new(math.cos(angle), 0, math.sin(angle))
+		local left = Vector3.new(-forward.z, 0, forward.x)
+
+		if movingForward then
+			origin = origin + forward * actualCameraSpeed * timeMult
+		end
+		if movingBackward then
+			origin = origin + forward * -actualCameraSpeed * timeMult
+		end
+		if movingRight then
+			origin = origin + left * actualCameraSpeed * timeMult
+		end
+		if movingLeft then
+			origin = origin + left * -actualCameraSpeed * timeMult
+		end
+
+		local _, intersection = workspace:FindPartOnRayWithWhitelist(Ray.new(origin, Vector3.new(0, -1024, 0)), { terrain })
+		camera.CFrame = CFrame.new(intersection - forward*range + Vector3.new(0, range, 0), intersection)
+	end)
+	
+	return self
+end
+
+return CameraManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXbb727009c4364fd1ac12b4532a9c8113">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">InputManager</string>
+					<string name="ScriptGuid">{481fed3a-dd28-4758-9da8-662c3d08906b}</string>
+					<ProtectedString name="Source"><![CDATA[local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+local Unit = require(Shared.Unit)
+
+local InputManager = {}
+InputManager.__index = InputManager
+
+function InputManager.new()
+	local downPosition = nil
+	local downPart = nil
+
+	local selectedUnit = nil
+	local terrain = workspace.Terrain
+
+	local function getClickables()
+		local parts = Component:getInstancesWithComponent(Unit)
+		parts[#parts+1] = terrain
+		return parts
+	end
+
+	local function clickTerrain(position)
+		if selectedUnit then
+			selectedUnit:pathTo(position)
+		end
+	end
+
+	local function clickUnit(unit)
+		if unit == selectedUnit then
+			selectedUnit = nil
+			unit:deselect()
+		else
+			if selectedUnit then
+				selectedUnit:deselect()
+			end
+			selectedUnit = unit
+			unit:select()
+		end
+	end
+
+	UserInputService.InputBegan:connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			downPosition = input.Position
+			local ray = workspace.Camera:ScreenPointToRay(input.Position.x, input.Position.y)
+			ray = Ray.new(ray.Origin, ray.Direction * 1024)
+			local parts = getClickables()
+			downPart = Workspace:FindPartOnRayWithWhitelist(ray, parts)
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and downPart then
+			local deltaPos = input.Position - downPosition
+			if deltaPos.Magnitude < 1.0 then
+				local ray = workspace.Camera:ScreenPointToRay(input.Position.x, input.Position.y)
+				ray = Ray.new(ray.Origin, ray.Direction * 1024)
+				local parts = getClickables()
+				local part, position = Workspace:FindPartOnRayWithWhitelist(ray, parts)
+				if part == downPart then
+					if part == terrain then
+						clickTerrain(position)
+					else
+						local unit = Component:getComponentOnInstance(part, Unit)
+						clickUnit(unit)
+					end
+				end
+			end
+		end
+	end)
+end
+
+return InputManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBX5e628686af4f46518ecc5cc5fa3bf217">
+			<Properties>
+				<string name="Name">StarterCharacterScripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX91331791c87c42c6a00558f8e856deb4">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBXadbc2d010df44a31b7c5a047e49de900">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="ScreenOrientation">2</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LocalizationService" referent="RBXebc8d796d2f7467390342cc9d8353fe5">
+		<Properties>
+			<string name="Name">LocalizationService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX46ffbf93002649e4b86ee1859949ec75">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBXa6cd448618754f5b8e7ef954b811a012">
+		<Properties>
+			<string name="Name">CollectionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX7b1cfb91ef4745c5831a1317d7874b7c">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX05007551115e48ee9a8793669be481d5">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBX3c810cf4da06443ba59cebcb5711aef8">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<string name="Name">InsertService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="GamePassService" referent="RBXc57ba828e1c7402ca732ce9ed401e033">
+		<Properties>
+			<string name="Name">GamePassService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX6bc1bac3de114dcbb3740ca16b337be4">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBXd661694334b34a60b976516d22f22eee">
+		<Properties>
+			<string name="Name">CookiesService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBX2b3567e1e74c43daa29f01164c7d1b42">
+		<Properties>
+			<string name="Name">VRService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBXd52d52fffac94eaebe28fcc226570f3c">
+		<Properties>
+			<string name="Name">ContextActionService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBXe5ef6eda8c664ee8a82a8d35c3588bd1">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX169bb1b815e1471f9e34cced071bace9">
+		<Properties>
+			<string name="Name">AssetService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBXc8328d20cf7b486e9a3db37d91900666">
+		<Properties>
+			<string name="Name">TouchInputService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX62cbd497507a4c6bad754e0ce3b7ef27">
+		<Properties>
+			<string name="Name">Selection</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX3cf84addeb044ff5b0c0169b618a6ff5">
+		<Properties>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ServerStorage" referent="RBX3acb8bcacf294a888fd966d1a9c483b3">
+		<Properties>
+			<string name="Name">ServerStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="RBXae99fd8d3a6d4942a6a8aa1c19a28124">
+			<Properties>
+				<string name="Name">TagList</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Folder" referent="RBXb58a82cace6d49da9ca56c88c3a94ee4">
+				<Properties>
+					<string name="Name">Unit</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="Color3Value" referent="RBX1f5f196af7614a7e96f1518173e2e401">
+					<Properties>
+						<string name="Name">Color</string>
+						<BinaryString name="Tags"></BinaryString>
+						<Color3 name="Value">4291740473</Color3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBX366d718e19bc473f87dfa1ac36d9a3b9">
+				<Properties>
+					<string name="Name">Terrain</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="Color3Value" referent="RBX684379820239450c9f92635aeb5eadaa">
+					<Properties>
+						<string name="Name">Color</string>
+						<BinaryString name="Tags"></BinaryString>
+						<Color3 name="Value">4278825114</Color3>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBX0c271134208b4f40998c4795f1f20803">
+		<Properties>
+			<string name="Name">ReplicatedStorage</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="Folder" referent="RBX3dd99b33040b47659d03fc3e9ab30bc3">
+			<Properties>
+				<string name="Name">Scripts</string>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="ModuleScript" referent="RBXe95967ddf16547348beff7989e155dc7">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Component</string>
+					<string name="ScriptGuid">{8939107e-5dc4-4130-b7af-342d7aed2afa}</string>
+					<ProtectedString name="Source"><![CDATA[local CollectionService = game:GetService("CollectionService")
+local RunService = game:GetService("RunService")
+
+local Symbol = require(script.Parent.Symbol)
+
+local Component = {}
+Component.__index = Component
+
+function Component:getComponent(component)
+	return component._instances[self.instance]
+end
+
+function Component:getComponentInParent(component)
+	-- objects removed from the data model will have the instance removed signal fired on them, so the component will be detached
+	assert(self.instance.Parent, "Component's instance has no parent")
+	return component._instances[self.instance.Parent]
+end
+
+function Component:getComponentsInDescendants(component)
+	local components = {}
+	for _,instance in pairs(self.instance:GetDescendants()) do
+		local object = component._instances[instance]
+		if object then
+			components[#components+1] = object
+		end
+	end
+	return components
+end
+
+function Component:getComponentOnInstance(instance, component)
+	return component._instances[instance]
+end
+
+function Component:getInstancesWithComponent(component)
+	local instances = {}
+	for instance in pairs(component._instances) do
+		instances[#instances+1] = instance
+	end
+	return instances
+end
+
+function Component:init()
+end
+
+function Component:destroy()
+end
+
+Component._components = {}
+Component._queued = {}
+Component.InitedFlag = Symbol.new("wasInited")
+
+function Component:extend(name, defaultProps)
+	local Class = {}
+	Class.__index = Class
+	setmetatable(Class, self)
+	-- begin only magical part of :extend()
+	Class.className = name
+	Class._instances = {}
+	self._components[name] = Class
+	-- end magic
+
+	function Class.new(instance)
+		local component = {
+			instance = instance,
+		}
+		for key, value in pairs(defaultProps or {}) do
+			component[key] = value
+		end
+		setmetatable(component, Class)
+
+		return component
+	end
+
+	return Class
+end
+
+function Component._setup()
+	for _,component in pairs(Component._components) do
+		local function attach(instance)
+			local object = component.new(instance)
+			object[Component.InitedFlag] = false
+			component._instances[instance] = object
+			Component._queued[#Component._queued+1] = object
+			
+			return component
+		end
+
+		local function detach(instance)
+			local object = component._instances[instance]
+			if object[Component.InitedFlag] then
+				object:removed()
+			end
+			object:destroy()
+			component._instances[instance] = nil
+		end
+
+		for _,instance in pairs(CollectionService:GetTagged(component.className)) do
+			attach(instance)
+		end
+		CollectionService:GetInstanceAddedSignal(component.className):Connect(attach)
+		CollectionService:GetInstanceRemovedSignal(component.className):Connect(detach)
+	end
+end
+
+function Component._update(dt)
+	for _, component in pairs(Component._components) do
+		-- only update components that have a update method
+		if component.update then
+			debug.profilebegin(string.format("Stepping %s components", component.className))
+			for _, object in pairs(component._instances) do
+				object:update(dt)
+			end
+			debug.profileend()
+		end
+	end
+end
+
+-- call this as late as possible, or at least after _update
+function Component._processQueue()
+	local queue = Component._queued
+	Component._queued = {}
+	for i = 1, #queue do
+		local comp = queue[i]
+		if not comp[Component.InitedFlag] then
+			comp[Component.InitedFlag] = true
+			queue[i]:init()
+		end
+	end
+end
+
+return Component]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX50cdae4c285544429645a3c002547a99">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ServerEventType</string>
+					<string name="ScriptGuid">{73431fda-7bbb-4eea-b543-99a66b240f31}</string>
+					<ProtectedString name="Source"><![CDATA[local ServerEventType = {
+	UnitMove = "UnitMove",
+	UnitAttack = "UnitAttack",
+	UnitPower = "UnitPower",
+}
+
+return ServerEventType]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXddf88a5e429642df89f9f9ae4bed2e3d">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Symbol</string>
+					<string name="ScriptGuid">{88ddbd1a-6c24-4799-98a8-59175631956b}</string>
+					<ProtectedString name="Source"><![CDATA[local Symbol = {}
+
+function Symbol.new(name)
+	local self = newproxy(true)
+
+	getmetatable(self).__tostring = function()
+		return ("Symbol(%s)"):format(name)
+	end
+
+	return self
+end
+
+return Symbol]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX8c6a8899d6704aa8953582953501cf9b">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">ComponentManager</string>
+					<string name="ScriptGuid">{b033726e-35e8-411d-a942-efc1ac367e2e}</string>
+					<ProtectedString name="Source"><![CDATA[local RunService = game:GetService("RunService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+require(Shared.Unit)
+
+local ComponentManager = {}
+ComponentManager.__index = ComponentManager
+
+function ComponentManager.new()
+	local self = {}
+	setmetatable(self, ComponentManager)
+
+	Component._setup()
+
+	RunService.Heartbeat:connect(function(dt)
+		Component._update(dt)
+		Component._processQueue()
+	end)
+end
+
+return ComponentManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX40639aff798e40ca9ff50ed67ff33602">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Unit</string>
+					<string name="ScriptGuid">{40f25ce7-15a3-40b3-b3e8-9a1cc8b5aa42}</string>
+					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local PathfindingService = game:GetService("PathfindingService")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+
+local Unit = Component:extend("Unit")
+
+function Unit:init()
+	self.offset = Vector3.new(0, -self.instance.Size.y / 2, 0)
+	self.recalculatingPath = false
+	self.moveSpeed = 5
+end
+
+function Unit:update(dt)
+	if self.path then
+		self:moveAlongPath(dt)
+	end
+end
+
+function Unit:select()
+	self.instance.BrickColor = BrickColor.Yellow()
+end
+
+function Unit:deselect()
+	self.instance.BrickColor = BrickColor.White()
+end
+
+function Unit:pathTo(destination)
+	self.destination = destination
+	self:calculatePath()
+end
+
+function Unit:moveAlongPath(dt)
+	local position = self.instance.CFrame.p + self.offset
+	local waypoints = self.path:GetWaypoints()
+	local delta = self.currentWaypointPosition - position
+	local deltaMagnitude = delta.Magnitude
+	local deltaDirection = delta / deltaMagnitude
+	local travel = self.moveSpeed * dt
+
+	-- If we're closer to the waypoint than the distance we'd travel, we've reached the waypoint.
+	if deltaMagnitude < travel then
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
+
+		-- If this is the last waypoint, we're done. Clear the path.
+		-- Otherwise, move to the waypoint, and then move again to use up the rest of our movement to the next one.
+		if self.currentWaypoint == #waypoints then
+			self.path = nil
+		else
+			self.currentWaypoint = self.currentWaypoint + 1
+			self:calculateWaypointPosition()
+			self:moveAlongPath(dt * deltaMagnitude / travel)
+		end
+	else
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
+	end
+end
+
+function Unit:calculateWaypointPosition()
+	local basePosition = self.path:GetWaypoints()[self.currentWaypoint].Position
+	local ray = Ray.new(basePosition + Vector3.new(0, 20, 0), Vector3.new(0, -30, 0))
+	local _, terrainPosition = Workspace:FindPartOnRayWithWhitelist(ray, { workspace.Terrain })
+	print("Next waypoint at", terrainPosition, "from base position", basePosition)
+	self.currentWaypointPosition = terrainPosition
+end
+
+function Unit:calculatePath()
+	-- If the path is incomplete or blocked, we need to recalculate periodically. This flag makes sure we don't attempt
+	-- to recalculate again while we're still doing the last one.
+	self.recalculatingPath = true
+	spawn(function()
+		local position = self.instance.CFrame.p + self.offset
+		local destination = self.destination
+		local path = PathfindingService:FindPathAsync(position, destination)
+
+		-- If we were given a new destination before we finished calculating this one, discard this one.
+		if destination ~= self.destination then
+			return
+		end
+
+		-- If there is no path, then we can't reasonably retry. Just fail and do nothing.
+		if path.status == Enum.PathStatus.NoPath then
+			return
+		end
+
+		self.path = path
+		self.currentWaypoint = 2
+		self.recalculatingPath = false
+		self:calculateWaypointPosition()
+	end)
+end
+
+return Unit]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXfb18d0f64a7b4691abed2c938196ddde">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Unit</string>
+					<string name="ScriptGuid">{2f4eea64-cfcf-4870-8573-4a4b47c945e5}</string>
+					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local PathfindingService = game:GetService("PathfindingService")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+
+local Unit = Component:extend("Unit")
+
+function Unit:init()
+	self.offset = Vector3.new(0, -self.instance.Size.y / 2, 0)
+	self.recalculatingPath = false
+	self.moveSpeed = 5
+end
+
+function Unit:update(dt)
+	if self.path then
+		self:moveAlongPath(dt)
+	end
+end
+
+function Unit:select()
+	self.instance.BrickColor = BrickColor.Yellow()
+end
+
+function Unit:deselect()
+	self.instance.BrickColor = BrickColor.White()
+end
+
+function Unit:pathTo(destination)
+	self.destination = destination
+	self:calculatePath()
+end
+
+function Unit:moveAlongPath(dt)
+	local position = self.instance.CFrame.p + self.offset
+	local waypoints = self.path:GetWaypoints()
+	local delta = self.currentWaypointPosition - position
+	local deltaMagnitude = delta.Magnitude
+	local deltaDirection = delta / deltaMagnitude
+	local travel = self.moveSpeed * dt
+
+	-- If we're closer to the waypoint than the distance we'd travel, we've reached the waypoint.
+	if deltaMagnitude < travel then
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
+
+		-- If this is the last waypoint, we're done. Clear the path.
+		-- Otherwise, move to the waypoint, and then move again to use up the rest of our movement to the next one.
+		if self.currentWaypoint == #waypoints then
+			self.path = nil
+		else
+			self.currentWaypoint = self.currentWaypoint + 1
+			self:calculateWaypointPosition()
+			self:moveAlongPath(dt * deltaMagnitude / travel)
+		end
+	else
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
+	end
+end
+
+function Unit:calculateWaypointPosition()
+	local basePosition = self.path:GetWaypoints()[self.currentWaypoint].Position
+	local ray = Ray.new(basePosition + Vector3.new(0, 20, 0), Vector3.new(0, -30, 0))
+	local _, terrainPosition = Workspace:FindPartOnRayWithWhitelist(ray, { workspace.Terrain })
+	self.currentWaypointPosition = terrainPosition
+end
+
+function Unit:calculatePath()
+	-- If the path is incomplete or blocked, we need to recalculate periodically. This flag makes sure we don't attempt
+	-- to recalculate again while we're still doing the last one.
+	self.recalculatingPath = true
+	spawn(function()
+		local position = self.instance.CFrame.p + self.offset
+		local destination = self.destination
+		local path = PathfindingService:FindPathAsync(position, destination)
+
+		-- If we were given a new destination before we finished calculating this one, discard this one.
+		if destination ~= self.destination then
+			return
+		end
+
+		-- If there is no path, then we can't reasonably retry. Just fail and do nothing.
+		if path.status == Enum.PathStatus.NoPath then
+			return
+		end
+
+		self.path = path
+		self.currentWaypoint = 2
+		self.recalculatingPath = false
+		self:calculateWaypointPosition()
+	end)
+end
+
+return Unit]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="RBXe5961bd252b54249af47bf9d994197d8">
+				<Properties>
+					<string name="Name">Components</string>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="LuaWebService" referent="RBXdbc0b6b40d6c4ad4b2de43938b104614">
+		<Properties>
+			<string name="Name">Instance</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="HttpService" referent="RBXa434cfcf46e54397b79b09d2ed6a606a">
+		<Properties>
+			<bool name="HttpEnabled">true</bool>
+			<string name="Name">HttpService</string>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBXd90a7f9426a9413e961d123dabc49f15">
+		<Properties>
+			<Color3 name="Ambient">4278190080</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<Color3 name="FogColor">4290822336</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">41.7332993</float>
+			<bool name="GlobalShadows">true</bool>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">4287072128</Color3>
+			<bool name="Outlines">false</bool>
+			<BinaryString name="Tags"></BinaryString>
+			<string name="TimeOfDay">15:00:00</string>
+		</Properties>
+	</Item>
+</roblox>
